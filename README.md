@@ -1,16 +1,13 @@
-# t_hw_1
+﻿# t_hw1
 
-A new Flutter project.
+Демо по ООП на Dart/Flutter: модель PetInfo, интерфейс Eatable, абстрактный Animal и классы Dog/Cat.
 
-## Getting Started
+Код находится в `lib/`:
+- `animal.dart`, `dog.dart`, `cat.dart`, `eatable.dart`, `pet_info.dart`, `main.dart`.
 
-This project is a starting point for a Flutter application.
+Платформенные папки Flutter (android/ios/web/windows/macos/linux) удалены, чтобы в репозитории был только Dart-код.
+Если нужно снова запускать как приложение, можно восстановить их командой:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter create .
+```
