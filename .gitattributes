@@ -1,0 +1,6 @@
+﻿*.yaml linguist-generated
+*.yml linguist-generated
+*.md linguist-documentation
+*.lock linguist-generated
+.metadata linguist-generated
+.gitignore linguist-generated
